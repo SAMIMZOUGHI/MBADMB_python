@@ -11,7 +11,7 @@ Au programme : les fondamentaux de Python ; puis, à partir d'un vrai fichier de
 |---|---|---|
 | **Partie 1 · Les fondamentaux** | Première ligne de code, types de données, variables et mémoire du notebook, texte, listes, dictionnaires, conditions, boucles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie1_fondamentaux.ipynb) |
 | **Partie 2 · Segmentation** | Charger et explorer les commandes, passer aux clients (RFM), k-means pas à pas, personas et plan d'action | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie2_segmentation.ipynb) |
-| **Partie 3 · La boîte à outils** | pandas (le temps, les tableaux croisés), NumPy (vitesse, simulation), Plotly (graphiques interactifs), Folium (cartes), Prophet (prévision, en bonus) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie3_boite_a_outils.ipynb) |
+| **Partie 3 · La boîte à outils** | pandas (le temps, les regroupements, les tableaux croisés), NumPy (calculs rapides), Plotly (graphiques interactifs), Folium (cartes) et Prophet (prévision) en optionnel | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie3_boite_a_outils.ipynb) |
 
 1. Clique sur le bouton **Open in Colab** de la partie (connecte-toi avec un compte Google).
 2. Dans Colab : **Fichier → Enregistrer une copie dans Drive**. Tu travailles sur TA copie.
