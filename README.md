@@ -24,7 +24,7 @@ Au programme : les fondamentaux de Python ; puis, à partir d'un vrai fichier de
 | `notebooks/partie1_fondamentaux.ipynb` | Partie 1 : les bases de Python |
 | `notebooks/partie2_segmentation.ipynb` | Partie 2 : pandas, RFM, k-means |
 | `notebooks/partie3_boite_a_outils.ipynb` | Partie 3 : pandas, NumPy, Plotly, Folium, Prophet |
-| `data/commandes.csv` | 4 475 commandes sur 2 ans (une ligne par commande) : client, date et heure, canal, ville et coordonnées, catégorie, nombre d'articles, code promo, montant |
+| `data/database.csv` | 4 475 commandes sur 2 ans (une ligne par commande) : client, date et heure, canal, ville et coordonnées, catégorie, nombre d'articles, code promo, montant |
 
 > Les données sont **fictives**, générées pour le cours.
 
