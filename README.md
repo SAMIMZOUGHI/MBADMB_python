@@ -1,17 +1,17 @@
-# 🐍 Python en IA — Segmenter les clients d'*Amora Zone*
+# 🐍 Python en IA — Des fondamentaux aux librairies, avec *Amora Zone*
 
 Séance pratique du MBA Data & IA (EFAP · dmb).
 *Amora Zone* est une entreprise française (fictive pour ce cours) de cosmétiques naturels : produits de soin et ingrédients pour cosmétiques faits maison, vendus dans ses boutiques et sur son site e-commerce.
 
-Au programme : les fondamentaux de Python ; puis, à partir d'un vrai fichier de commandes, la segmentation des clients avec un k-means ; enfin, un tour de la boîte à outils Python de l'IA (pandas, NumPy, Plotly, Folium, Prophet).
+Le cours a **deux parties** : les fondamentaux de Python, puis les librairies de l'IA (pandas, NumPy, Plotly ; Folium et Prophet en option), sur un vrai fichier de commandes. Une **annexe** va plus loin, jusqu'au machine learning (k-means).
 
 ## ▶️ Ouvrir les notebooks (rien à installer)
 
 | Partie | Contenu | Ouvrir |
 |---|---|---|
 | **Partie 1 · Les fondamentaux** | Première ligne de code, types de données, variables et mémoire du notebook, texte, listes, dictionnaires, conditions, boucles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie1_fondamentaux.ipynb) |
-| **Partie 2 · Segmentation** | Charger et explorer les commandes, passer aux clients (RFM), k-means pas à pas, personas et plan d'action | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie2_segmentation.ipynb) |
-| **Partie 3 · La boîte à outils** | pandas (le temps, les regroupements, les tableaux croisés), NumPy (calculs rapides), Plotly (graphiques interactifs), Folium (cartes) et Prophet (prévision) en optionnel | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie3_boite_a_outils.ipynb) |
+| **Partie 2 · La boîte à outils** | pandas (le temps, les regroupements, les tableaux croisés), NumPy (calculs rapides), Plotly (graphiques interactifs) ; Folium (cartes) et Prophet (prévision) en optionnel | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/partie2_boite_a_outils.ipynb) |
+| **Annexe · Segmentation k-means** | Hors cours : passer des commandes aux clients (RFM), k-means pas à pas, personas et plan d'action | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SAMIMZOUGHI/MBADMB_python/blob/main/notebooks/annexe_kmeans_segmentation.ipynb) |
 
 1. Clique sur le bouton **Open in Colab** de la partie (connecte-toi avec un compte Google).
 2. Dans Colab : **Fichier → Enregistrer une copie dans Drive**. Tu travailles sur TA copie.
@@ -22,8 +22,8 @@ Au programme : les fondamentaux de Python ; puis, à partir d'un vrai fichier de
 | Fichier | Description |
 |---|---|
 | `notebooks/partie1_fondamentaux.ipynb` | Partie 1 : les bases de Python |
-| `notebooks/partie2_segmentation.ipynb` | Partie 2 : pandas, RFM, k-means |
-| `notebooks/partie3_boite_a_outils.ipynb` | Partie 3 : pandas, NumPy, Plotly, Folium, Prophet |
+| `notebooks/partie2_boite_a_outils.ipynb` | Partie 2 : pandas, NumPy, Plotly ; Folium et Prophet en option |
+| `notebooks/annexe_kmeans_segmentation.ipynb` | Annexe : RFM et k-means |
 | `data/database.csv` | 4 475 commandes sur 2 ans (une ligne par commande) : client, date et heure, canal, ville et coordonnées, catégorie, nombre d'articles, code promo, montant |
 
 > Les données sont **fictives**, générées pour le cours.
